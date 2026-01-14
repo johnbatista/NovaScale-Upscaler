@@ -3,8 +3,8 @@ project(NovaScale C)
 
 set(CMAKE_C_STANDARD 11)
 
-# DirectX 11 and DXGI libraries
-link_libraries(d3d11 dxgi)
+# DirectX libraries
+link_libraries(d3d11 dxgi d3dcompiler winmm)
 
 add_library(novascale SHARED
     core/main.c

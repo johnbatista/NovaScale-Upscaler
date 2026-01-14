@@ -48,6 +48,20 @@ bool Present_Initialize(ID3D11Device* device, uint32_t width, uint32_t height) {
     return true;
 }
 
+void Present_Frame(ID3D11DeviceContext* context, ID3D11Texture2D* upscaled_texture) {
+    if (!g_present.swap_chain) return;
+
+    ID3D11Texture2D* back_buffer = NULL;
+    g_present.swap_chain->lpVtbl->GetBuffer(g_present.swap_chain, 0, &IID_ID3D11Texture2D, (void**)&back_buffer);
+    
+    if (back_buffer) {
+        context->lpVtbl->CopyResource(context, (ID3D11Resource*)back_buffer, (ID3D11Resource*)upscaled_texture);
+        back_buffer->lpVtbl->Release(back_buffer);
+    }
+
+    g_present.swap_chain->lpVtbl->Present(g_present.swap_chain, 1, 0);
+}
+
 void Present_Cleanup() {
     if (g_present.rtv) g_present.rtv->lpVtbl->Release(g_present.rtv);
     if (g_present.swap_chain) g_present.swap_chain->lpVtbl->Release(g_present.swap_chain);
