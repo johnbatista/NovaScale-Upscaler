@@ -3,7 +3,7 @@ import ctypes
 import os
 from PySide6.QtWidgets import QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QLabel, QPushButton, QFrame
 from PySide6.QtCore import Qt, QTimer
-from PySide6.QtGui import QFont, QColor, QIcon
+from PySide6.QtGui import QFont, QColor, QIcon, QPixmap
 from settings import SettingsPanel
 
 # --- C API Mapping ---
@@ -75,20 +75,24 @@ class MainWindow(QMainWindow):
         main_layout.setContentsMargins(30, 30, 30, 30)
         main_layout.setSpacing(25)
 
-        # Header with neon effect
+        # Header with logo
         header_frame = QFrame()
         header_layout = QVBoxLayout(header_frame)
-        self.header = QLabel("NOVASCALE")
-        self.header.setFont(QFont("Outfit", 32, QFont.ExtraBold))
-        self.header.setAlignment(Qt.AlignCenter)
-        self.header.setStyleSheet("color: #00f2ff; letter-spacing: 4px;")
+        
+        # Logo Image
+        self.logo_label = QLabel()
+        logo_pix = QPixmap(resource_path("logo.png"))
+        if not logo_pix.isNull():
+            self.logo_label.setPixmap(logo_pix.scaled(200, 60, Qt.KeepAspectRatio, Qt.SmoothTransformation))
+        self.logo_label.setAlignment(Qt.AlignCenter)
+        self.logo_label.setStyleSheet("margin-bottom: 5px;")
         
         self.subtitle = QLabel("AI-POWERED SPATIAL UPSCALER")
         self.subtitle.setFont(QFont("Inter", 9, QFont.Bold))
         self.subtitle.setAlignment(Qt.AlignCenter)
         self.subtitle.setStyleSheet("color: #555; letter-spacing: 2px;")
         
-        header_layout.addWidget(self.header)
+        header_layout.addWidget(self.logo_label)
         header_layout.addWidget(self.subtitle)
         main_layout.addWidget(header_frame)
 
