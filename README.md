@@ -21,7 +21,7 @@ Professional-grade real-time upscaling application for Windows.
 ## License
 MIT License
 
-Copyright (c) 2026 NovaScale Team
+Copyright (c) 2026 NovaScale Team X N4V X CRTY PUBG
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
