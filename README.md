@@ -1,4 +1,5 @@
-![ana](https://github.com/user-attachments/assets/c37012a5-ffff-4e1f-a2c9-71edcb8c4c6c)
+
+<img width="800" height="533" alt="f71550be-bd42-4361-b02a-dfbf95e31c35" src="https://github.com/user-attachments/assets/8b9c2f96-a1a3-4057-a7be-4c84c053343c" />
 
 # NovaScale
 
